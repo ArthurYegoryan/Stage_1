@@ -17,6 +17,11 @@ namespace myWorks
 
             Console.WriteLine($"Hello {name}!");
 
+            Console.WriteLine("How old are you?");
+            var age_str = Console.Readline();
+            int age = convert.Toint(age_str);
+            Console.WriteLine($"I am {age}");
+
             Console.ReadKey();
         }
     }
