@@ -17,10 +17,10 @@ namespace myWorks
 
             Console.WriteLine($"Hello {name}!");
 
-            Console.WriteLine("How old are you?");
-            var age_str = Console.Readline();
-            int age = convert.Toint(age_str);
-            Console.WriteLine($"I am {age}");
+            Console.Write("How old are you?  ");
+            var age_str = Console.ReadLine();
+            int age = Convert.ToInt32(age_str);
+            Console.WriteLine($"Arthur is {age} years old");
 
             Console.ReadKey();
         }
