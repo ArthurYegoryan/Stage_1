@@ -11,10 +11,10 @@ namespace Lessons_Homeworks
         static void Main()
         {
             Console.WriteLine("Byte operations:");
-            
+
             byte a = 15;
             byte b = 20;
-            
+
             byte sumByte1 = Convert.ToByte(a + b);
             Console.WriteLine("Type is " + Convert.GetTypeCode(sumByte1));
             Console.WriteLine("Sum = " + sumByte1);
@@ -33,7 +33,7 @@ namespace Lessons_Homeworks
 
             int multByte = a * b;
             Console.WriteLine("Multiplication = " + multByte);
-            
+
             float divByte1 = (float)a / b;
             Console.WriteLine("Type is " + Convert.GetTypeCode(divByte1));
             Console.WriteLine("Division = " + divByte1);
@@ -44,7 +44,7 @@ namespace Lessons_Homeworks
 
             byte aa = 150;
             byte bb = 200;
-                        
+
             byte sumByte3 = (byte)(aa + bb);
             Console.WriteLine("Type is " + Convert.GetTypeCode(sumByte3));
             Console.WriteLine("Sum = " + sumByte3);
@@ -140,7 +140,7 @@ namespace Lessons_Homeworks
             long subLong = Convert.ToInt64(g - h);
             Console.WriteLine("Type is " + Convert.GetTypeCode(subLong));
             Console.WriteLine("Subtraction = " + subLong);
-                        
+
             long multLong = Convert.ToInt64(g * h);
             Console.WriteLine("Type is " + Convert.GetTypeCode(multLong));
             Console.WriteLine("Multiplication = " + multLong);
@@ -171,7 +171,7 @@ namespace Lessons_Homeworks
             Console.WriteLine("Type is " + Convert.GetTypeCode(multFloat));
             Console.WriteLine("Multiplication = " + multFloat);
 
-            float divFloat = k / l;            
+            float divFloat = k / l;
             Console.WriteLine("Type is " + Convert.GetTypeCode(divFloat));
             Console.WriteLine("Division = " + divFloat);
             Console.WriteLine();
@@ -219,11 +219,11 @@ namespace Lessons_Homeworks
             Console.WriteLine("Type is " + Convert.GetTypeCode(subDecimal));
             Console.WriteLine("Subtraction = " + subDecimal);
 
-            decimal multDecimal = p * q;            
+            decimal multDecimal = p * q;
             Console.WriteLine("Type is " + Convert.GetTypeCode(multDecimal));
             Console.WriteLine("Multiplication = " + multDecimal);
 
-            decimal divDecimal = p / q;            
+            decimal divDecimal = p / q;
             Console.WriteLine("Type is " + Convert.GetTypeCode(divDecimal));
             Console.WriteLine("Division = " + divDecimal);
             Console.WriteLine();
@@ -233,7 +233,7 @@ namespace Lessons_Homeworks
 
 
             Console.WriteLine("Char operations:");
-            
+
             char x = '#';
             char y = 'B';
 
@@ -247,7 +247,7 @@ namespace Lessons_Homeworks
 
             char xx = (char)7;
             char yy = (char)13;
-            
+
             char multChar = Convert.ToChar(xx * yy);
             Console.WriteLine("Type is " + Convert.GetTypeCode(multChar));
             Console.WriteLine("Multiplication = " + multChar);
