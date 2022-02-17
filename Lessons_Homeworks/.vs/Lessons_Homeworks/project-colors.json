@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b9f7d864-08db-46ca-9457-5096fbf90ee9": {
+      "ProjectGuid": "b9f7d864-08db-46ca-9457-5096fbf90ee9",
+      "DisplayName": "Lessons_Homeworks",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
