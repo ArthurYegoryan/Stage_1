@@ -17,7 +17,7 @@ namespace Lessons_Homeworks
 
             int a1 = string.Compare(str1, str2);  //    Համեմատումա str1 ու str2-ը, եթե այբբենական կարգով str1-ը 
             Console.WriteLine(a1);                // ավելի բարձրա str2-ից, ապա վերադարձնումա 0-ից փոքր թիվ, եթե չէ հակառակը
-            
+
             int a2 = string.CompareOrdinal(str1, str2);
             Console.WriteLine(a2);               //    Համեմատումա 2 str-ների char-երի թվերի գումարը, եթե 1-ինը փոքրա 2-ից
                                                  // վերադարձնումա բացասական թիվ, եթե չէ՝ դրական
@@ -51,12 +51,12 @@ namespace Lessons_Homeworks
 
             bool a11 = string.IsNullOrWhiteSpace(str2);  // Ստուգում է տվյալ string-ը դատարկ է կամ ընդունում է \t, \n
             Console.WriteLine(a11);
-                        
+
             string a12 = string.Join(str1, str2);  // ?
             Console.WriteLine(a12);
 
             bool a13 = string.ReferenceEquals(str1, str2); // Ստուգում է արդյոք ռեֆերենսները հավասար են
-            Console.WriteLine(a13);            
+            Console.WriteLine(a13);
         }
     }
 }
