@@ -13,7 +13,7 @@ namespace Lessons_Homeworks
             string text = "Hello";
 
             Console.BackgroundColor = ConsoleColor.Blue;   // Փոխում է կոնսոլի գրված տողի գույնը
-            
+
             Console.ResetColor();                          // Փոխված տողի գույնը վերադարձնում է default վիճակի
 
             Console.WriteLine(text);
@@ -26,7 +26,7 @@ namespace Lessons_Homeworks
             Console.WriteLine(Console.BufferHeight);
 
             Console.BufferWidth = 3000;                    // Տալիս է կոնսոլի լայնությունը
-                                                           
+
             // Console.CancelKeyPress                      // ?
 
             Console.WriteLine(Console.CapsLock);           // Ստուգում է CapsLock-ը միացված է թե չէ
@@ -75,7 +75,7 @@ namespace Lessons_Homeworks
             Console.WriteLine(Console.OpenStandardError());    // Ցույց է տալիս ստանդարտ error
 
             Console.OpenStandardInput();                       // Ստանում է ստանդարտ input-ի ուղղություն
-            
+
             Console.OpenStandardOutput();                      // Ստանում է ստանդարտ output-ի ուղղություն
 
             // ? Console.Out();
@@ -85,7 +85,7 @@ namespace Lessons_Homeworks
             Console.Read();                                    // Սպասում է input-ի
 
             Console.ReadKey();                                 // Չի փակում կոնսոլը մինչև մի հատ էլ ստեղն չսեղմվի
-            
+
             Console.ReferenceEquals(frequency, duration);      // Համեմատում է 2 պարամետրերի ռեֆերանսները նույնն են թե ոչ
 
             Console.ResetColor();                              // Կոնսոլի ֆոնի և տառերի գույները սարքում է default ձևի
