@@ -13,19 +13,19 @@ namespace Lessons_Homeworks
             int a = 10;
 
             Console.WriteLine("a = " + a);
-            
+
             Console.WriteLine("a++ = " + a++);   // postfix increment (սկզբում տպում է, հետո արժեքը բարձրացնում 1-ով)
-            
+
             Console.WriteLine("a-- = " + a--);   // postfix decrement (սկզբում տպում է, հետո արժեքը նվազեցնում 1-ով)
-            
+
             Console.WriteLine("++a = " + ++a);   // prefix increment (սկզբում արժեքը բարձրացնում է 1-ով, հետո տպում)
-            
+
             Console.WriteLine("--a = " + --a);   // prefix decrement (սկզբում արժեքը նվազեցնում է 1-ով, հետո տպում)
 
 
 
             // Բիտային գործողություններ
-            
+
             int b1 = 15;
             int b2 = 20;
 
