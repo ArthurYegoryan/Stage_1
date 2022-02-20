@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Class3
     {
-        /*static void Main()
+        static void Main()
         {
             string text = "Hello";
 
@@ -114,6 +114,6 @@ namespace Lessons_Homeworks
             //Console.WindowTop = 10;
             //Console.WindowHeight = 10;
             //Console.WindowWidth = 10;    
-        }*/
+        }
     }
 }

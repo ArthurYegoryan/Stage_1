@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Lesson_3_1
     {
-        /*static void Main()
+        static void Main()
         {
             int a = 10;
 
@@ -39,6 +39,6 @@ namespace Lessons_Homeworks
 
             Console.WriteLine("b1 >> 2 = " + (b1 >> c));    // Բիտերը տանում ենք նշված թվով աջ
             Console.WriteLine("b2 << 2 = " + (b2 << c));    // Բիտերը տանում ենք նշված թվով ձախ
-        }*/
+        }
     }
 }

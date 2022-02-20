@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Lesson_3
 {
     internal class Lesson_3_3
     {
-        /*static void Main()
+        static void Main()
         {
             // Task_1
             int number = 4321;
@@ -74,7 +74,7 @@ namespace Lessons_Homeworks.Lesson_3
 
             // Task_4
             Console.Write("Enter the 1-st int number: ");
-            string text1 =  Console.ReadLine();
+            string text1 = Console.ReadLine();
             double number1 = Convert.ToDouble(text1);
 
             Console.Write("Enter the 2-nd byte number: ");
@@ -88,13 +88,13 @@ namespace Lessons_Homeworks.Lesson_3
             Console.Write("Enter the 4-th int number: ");
             string text4 = Console.ReadLine();
             double number4 = Convert.ToDouble(text4);
-                        
+
             double firstNumber = Math.MaxMagnitude(Math.MaxMagnitude(number1, number2), Math.MaxMagnitude(number3, number4));
             double fourthNumber = Math.MinMagnitude(Math.MinMagnitude(number1, number2), Math.MinMagnitude(number3, number4));
 
             double secondNumber = 0;
             double thirdNumber = 0;
-            
+
             if ((firstNumber == number1 && fourthNumber == number2) || (firstNumber == number2 && fourthNumber == number1))
             {
                 secondNumber = Math.MaxMagnitude(number3, number4);
@@ -129,6 +129,27 @@ namespace Lessons_Homeworks.Lesson_3
             }
 
             Console.WriteLine($"{firstNumber}, {secondNumber}, {thirdNumber}, {fourthNumber}");
-        }*/
+
+
+            // Task_5_Alice
+            Console.Write("Enter random number: ");
+            string numStr = Console.ReadLine();
+            int num = Convert.ToInt32(numStr);
+
+            int roundNum;
+            
+            if (num % 100 <= 50)
+            {
+                roundNum = num / 100 * 100;
+            }
+            else
+            {
+                roundNum = (num / 100 + 1) * 100;
+            }
+
+            Console.WriteLine("Round number = " + roundNum);
+
+            Console.ReadKey();
+        }
     }
 }

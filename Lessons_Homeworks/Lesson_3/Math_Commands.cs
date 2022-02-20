@@ -2,7 +2,7 @@
 {
     internal class Lesson_3_2
     {
-        /*static void Main()
+        static void Main()
         {
             int a = 10;
             int b = -20;
@@ -164,6 +164,6 @@
 
             decimal n45 = Math.Truncate(a1);   // Վերադարձնում է տրված դեցիմալ թվի ամբողջ մասը
             Console.WriteLine(n45);
-        }*/
+        }
     }
 }

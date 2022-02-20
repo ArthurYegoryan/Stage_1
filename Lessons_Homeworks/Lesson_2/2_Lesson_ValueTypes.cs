@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Class1
     {
-        /*static void Main()
+        static void Main()
         {
             Console.WriteLine("Byte operations:");
 
@@ -274,6 +274,6 @@ namespace Lessons_Homeworks
             Console.WriteLine("We can't do arithmetic operations with bools!");
 
             Console.ReadKey();
-        }*/
+        }
     }
 }

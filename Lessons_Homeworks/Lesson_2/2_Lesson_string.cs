@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Class2
     {
-        /*static void Main()
+        static void Main()
         {
             string str1 = "Hello";
             string str2 = "World";
@@ -57,6 +57,6 @@ namespace Lessons_Homeworks
 
             bool a13 = string.ReferenceEquals(str1, str2); // Ստուգում է արդյոք ռեֆերենսները հավասար են
             Console.WriteLine(a13);
-        }*/
+        }
     }
 }

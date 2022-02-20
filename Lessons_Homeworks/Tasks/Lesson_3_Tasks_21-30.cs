@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks
+namespace Lessons_Homeworks_Tasks
 {
     internal class Tasks
     {
@@ -111,7 +111,7 @@ namespace Lessons_Homeworks
 
             // Task_27
 
-            if ((c - b == b - a) || (c - a == a - b) || (b - a == a - c) || 
+            if ((c - b == b - a) || (c - a == a - b) || (b - a == a - c) ||
                 (b - c == c - a) || (a - b == b - c) || (a - c == c - b))
             {
                 Console.WriteLine(true);
@@ -149,7 +149,7 @@ namespace Lessons_Homeworks
 
             double firstNumber = Math.MinMagnitude(Math.Min(a1, b1), c1);
             double thirdNumber = Math.MaxMagnitude(Math.Max(a1, b1), c1);
-            
+
             double secondNumber = a1;
 
             if ((firstNumber == a1 && thirdNumber == c1) || (firstNumber == c1 && thirdNumber == a1))
