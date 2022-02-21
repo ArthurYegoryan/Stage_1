@@ -137,7 +137,7 @@ namespace Lessons_Homeworks.Lesson_3
             int num = Convert.ToInt32(numStr);
 
             int roundNum;
-            
+
             if (num % 100 <= 50)
             {
                 roundNum = num / 100 * 100;
