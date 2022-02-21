@@ -1,4 +1,4 @@
-﻿.vs
-bin
-obj
+﻿.vs/
+bin/
+obj/
 Lessons_Homeworks.csproj
