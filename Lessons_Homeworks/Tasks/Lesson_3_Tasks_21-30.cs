@@ -8,7 +8,7 @@ namespace Lessons_Homeworks_Tasks
 {
     internal class Tasks
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter a = ");
             string text1 = Console.ReadLine();
@@ -169,6 +169,6 @@ namespace Lessons_Homeworks_Tasks
             Console.WriteLine($"{thirdNumber}, {secondNumber}, {firstNumber}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

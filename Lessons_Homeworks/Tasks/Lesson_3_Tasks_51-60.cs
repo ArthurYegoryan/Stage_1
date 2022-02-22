@@ -8,7 +8,7 @@ namespace Lessons_Homeworks_Tasks_1
 {
     internal class Tasks_1
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter 3-digits number: ");
             string text = Console.ReadLine();
@@ -170,6 +170,6 @@ namespace Lessons_Homeworks_Tasks_1
             Console.WriteLine($"{thirdNumber}, {secondNumber}, {firstNumber}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

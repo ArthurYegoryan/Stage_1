@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_3_Tasks_61_70
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter four-digit number: ");
             string numStr = Console.ReadLine();
@@ -162,6 +162,6 @@ namespace Lessons_Homeworks.Tasks
             Console.WriteLine(y2);
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Lesson_3
 {
     internal class Lesson_3_3
     {
-        static void Main()
+        /*static void Main()
         {
             // Task_1
             int number = 4321;
@@ -150,6 +150,6 @@ namespace Lessons_Homeworks.Lesson_3
             Console.WriteLine("Round number = " + roundNum);
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

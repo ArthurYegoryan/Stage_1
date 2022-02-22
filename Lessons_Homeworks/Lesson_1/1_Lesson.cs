@@ -8,7 +8,7 @@ namespace myWorks
 {
     internal class Lesson_1
     {
-        static void Main()
+        /*static void Main()
         {
             Console.WriteLine("Hello World");
 
@@ -23,6 +23,6 @@ namespace myWorks
             Console.WriteLine($"Arthur is {age} years old");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
