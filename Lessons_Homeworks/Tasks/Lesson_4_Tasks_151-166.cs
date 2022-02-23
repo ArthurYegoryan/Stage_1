@@ -151,18 +151,125 @@ namespace Lessons_Homeworks
 
             // Task_160
 
-            for (double i = 100; i < 1000; i++)
+            double num = 100;
+
+            while (num < 1000)
             {
-                for (double j = Math.Sqrt(100 * 16); j < Math.Sqrt(1000*16); j++)
+                if (Math.Sqrt(num * 16) - (int)Math.Sqrt(num * 16) == 0)
                 {
-                    if (Math.Sqrt(i * 16) == j)
-                    {
-                        Console.WriteLine(i);
-                        break;
-                    }
+                    Console.WriteLine($"Number = {num}");
+                    break;
                 }
-                break;
+                num++;
             }
+
+
+            // Task_161
+
+            double num1 = 1000;
+
+            while (num1 < 10000)
+            {
+                if (Math.Sqrt(num1 * 26) - (int)Math.Sqrt(num1 * 26) == 0)
+                {
+                    Console.WriteLine($"Number1 = {num1}");
+                    break;
+                }
+                num1++;
+            }
+
+
+            // Task_162
+
+            double num2 = 9999;
+
+            while (num2 >= 1000)
+            {
+                if (Math.Sqrt(num2 * 14) - (int)Math.Sqrt(num2 * 14) == 0)
+                {
+                    Console.WriteLine($"Number2 = {num2}");
+                    break;
+                }
+                num2--;
+            }
+
+
+            // Task_163
+
+            while (num2 >= 1000)
+            {
+                if (Math.Sqrt(num2 * 18) - (int)Math.Sqrt(num2 * 18) == 0)
+                {
+                    Console.WriteLine($"Number3 = {num2}");
+                    break;
+                }
+                num2--;
+            }
+
+
+            // Task_164
+
+            Console.Write("Enter n1 = ");
+            string n1Str = Console.ReadLine();
+            int n1 = Convert.ToInt32(n1Str);
+
+            double num3 = 100;
+            bool is_found = false;
+
+            while (num3 < 1000)
+            {
+                if (Math.Sqrt(num3) - (int)Math.Sqrt(num3) == 0 && (int)Math.Sqrt(num3) > n1)
+                {
+                    is_found = true;
+                    Console.WriteLine($"Number4 = {num3}");
+                    break;
+                }
+                num3++;
+            }
+
+            if (is_found == false)
+            {
+                Console.WriteLine("Number doesn't exist!");
+            }
+
+
+            // Task_165
+
+            Console.Write("Enter n2 = ");
+            string n2Str = Console.ReadLine();
+            double n2 = Convert.ToInt32(n2Str);
+
+            bool t = false;
+
+            while (n2 / 3 >= 1)
+            {
+                if (n2 / 3 == 1)
+                {
+                    t = true;
+                }
+                n2 /= 3;
+            }
+
+            Console.WriteLine($"t = {t}");
+
+            // Task_166
+
+            int y = 0;
+
+            Console.Write("Enter n3 = ");
+            string n3Str = Console.ReadLine();
+            double n3 = Convert.ToInt32(n3Str);
+
+            while (n3 / 4 >= 1)
+            {
+                if (n3 / 4 == 1)
+                {
+                    y = 1;
+                }
+                n3 /= 4;
+            }
+
+            Console.WriteLine($"y = {y}");
 
             Console.ReadKey();
         }
