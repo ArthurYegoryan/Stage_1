@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_5_Tasks_211_230
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter n = ");
             string nStr = Console.ReadLine();
@@ -368,6 +368,6 @@ namespace Lessons_Homeworks.Tasks
             // Պահանջը չեմ հասկանում
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
