@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Array_Commands
     {
-        static void Main()
+        /*static void Main()
         {
             // Բացի generic command-ներից, մնացածը ներառված են
             
@@ -105,6 +105,6 @@ namespace Lessons_Homeworks
             }                    
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

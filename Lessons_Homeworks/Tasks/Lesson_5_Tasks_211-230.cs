@@ -130,7 +130,242 @@ namespace Lessons_Homeworks.Tasks
                 }
             }
 
-            Console.WriteLine($"Multiplication of even numbers = {multEven}");
+            Console.WriteLine($"Multiplication of even index numbers = {multEven}");
+
+
+            // Task_217
+
+            double multOddSquare = 1;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    multOddSquare *= Math.Pow(numbers[i], 2);
+                }
+            }
+
+            Console.WriteLine($"Multiplication of odd index numbers squares = {multOddSquare}");
+
+
+            // Task_218
+
+            decimal sumOddAbs = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    sumOddAbs += Math.Abs(numbers[i]);
+                }
+            }
+
+            Console.WriteLine($"Sum of absalout of odd index numbers = {sumOddAbs}");
+
+            // Task_219
+
+            Console.Write("Enter k = ");
+            string kStr = Console.ReadLine();
+            int k = Convert.ToInt32(kStr);
+
+            int count4 = 0;
+
+            for (int i = 1; i < n; i++)
+            {
+                if (i % k == 0)
+                {
+                    count4++;
+                }
+            }
+
+            Console.WriteLine($"Count of multiple numbers of i = {count4}");
+
+
+            // Task_220
+
+            int countPos = 0;
+            int countNeg = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (numbers[i] > 0)
+                {
+                    countPos++;
+                }
+                else if (numbers[i] < 0)
+                {
+                    countNeg++;
+                }
+            }
+
+            Console.WriteLine($"Count of positive numbers = {countPos}");
+            Console.WriteLine($"Count of negative numbers = {countNeg}");
+
+
+            // Task_221
+
+            Console.Write("Enter a = ");
+            string aStr = Console.ReadLine();
+            int a = Convert.ToInt32(aStr);
+
+            Console.Write("Enter b = ");
+            string bStr = Console.ReadLine();
+            int b = Convert.ToInt32(bStr);
+
+            int sum1 = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (numbers[i] >= a && numbers[i] <= b)
+                {
+                    sum1 += numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Sum of [a;b] numbers = {sum1}");
+
+
+            // Task_222
+
+            Console.Write("Enter c = ");
+            string cStr = Console.ReadLine();
+            int c = Convert.ToInt32(cStr);
+
+            Console.Write("Enter d = ");
+            string dStr = Console.ReadLine();
+            int d = Convert.ToInt32(dStr);
+
+            int mult = 1;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (numbers[i] >= c && numbers[i] < d)
+                {
+                    mult *= numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Multiplication of [c;d) numbers = {mult}");
+
+
+            // Task_223
+
+            int count5 = 0;
+            
+            for (int i = 0; i < n; i++)
+            {
+                if (numbers[i] > a && numbers[i] < b)
+                {
+                    count5++;
+                }
+            }
+
+            Console.WriteLine($"Count of (a;b) numbers = {count5}");
+
+
+            // task_224
+
+            Console.Write("Enter k1 = ");
+            string k1Str = Console.ReadLine();
+            int k1 = Convert.ToInt32(k1Str);
+            
+            double sumCubes = 0;
+
+            for (int i = 0; i < n; i++)
+            {
+                if (Math.Abs(numbers[i]) < k1)
+                {
+                    sumCubes += Math.Pow(numbers[i], 3);
+                }
+            }
+
+            Console.WriteLine($"Sum of number cubes, that abs(number) < k1 = {sumCubes}");
+
+
+            // Task_225
+
+            Console.Write("Enter t = ");
+            string tStr = Console.ReadLine();
+            int t = Convert.ToInt32(tStr);
+
+            int mult1 = 1;
+            
+            for (int i = 0; i < n; i++)
+            {
+                if (Math.Abs(numbers[i]) < t)
+                {
+                    mult1 *= numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Multiplication of abs(numbers) < t = {mult1}");
+
+
+            // Task_226
+
+            int count6 = 0;
+            
+            for (int i = 0; i < n; i++)
+            {
+                if (Math.Abs(numbers[i]) < k1)
+                {
+                    count6++;
+                }
+            }
+
+            Console.WriteLine($"Count of numbers, that abs(number) < k1 = {count6}");
+
+
+            // Task_227
+
+            int sumAverage1 = 0;
+            int count7 = 0;
+
+            for (int i = 1; i < n; i++)
+            {
+                if (i % k1 == 0)
+                {
+                    sumAverage1 += numbers[i];
+                    count7++;
+                }
+            }
+
+            Console.WriteLine($"Arithmetic average1 = {(double)sumAverage1 / count7}");
+
+
+            // Task_228
+
+            int sum2 = 0;
+
+            for (int i = 1; i < n; i++)
+            {
+                if (i % k == 0)
+                {
+                    sum2 += numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Sum2 = {sum2}");
+
+
+            // Task_229
+
+            int mult2 = 1;
+
+            for (int i = 0; i < n; i++)
+            {
+                if ((numbers[i] - i) > 0)
+                {
+                    mult2 *= numbers[i];
+                }
+            }
+
+            Console.WriteLine($"Mult2 = {mult2}");
+
+
+            // Task_230
+
+            // Պահանջը չեմ հասկանում
 
             Console.ReadKey();
         }
