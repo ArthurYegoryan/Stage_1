@@ -8,7 +8,7 @@ namespace Lessons_Homeworks
 {
     internal class Lesson_4_Tasks_151_166
     {
-        static void Main()
+        /*static void Main()
         {
             // Task_151
 
@@ -272,6 +272,6 @@ namespace Lessons_Homeworks
             Console.WriteLine($"y = {y}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }

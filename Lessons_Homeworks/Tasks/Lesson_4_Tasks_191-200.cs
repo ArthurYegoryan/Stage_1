@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_4_Tasks_191_200
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter N = ");
             string nStr = Console.ReadLine();
@@ -84,7 +84,12 @@ namespace Lessons_Homeworks.Tasks
 
             Console.WriteLine($"Sum4 = {sum4}");
 
+
+            // Task_196
+
+
+
             Console.ReadKey();
-        }
+        }*/
     }
 }
