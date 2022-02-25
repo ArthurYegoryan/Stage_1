@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_5_Tasks_231_250
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter n = ");
             string nStr = Console.ReadLine();
@@ -367,6 +367,6 @@ namespace Lessons_Homeworks.Tasks
             Console.WriteLine($"Multiplication of squares = {multSquare}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
