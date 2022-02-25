@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_5_Tasks_251_260
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter n = ");
             string nStr = Console.ReadLine();
@@ -127,6 +127,6 @@ namespace Lessons_Homeworks.Tasks
             Console.WriteLine($"Index of the last min value = {indexMinLast}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
