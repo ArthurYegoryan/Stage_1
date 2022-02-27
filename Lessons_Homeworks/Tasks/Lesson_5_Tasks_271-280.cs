@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_5_Tasks_271_280
     {
-        static void Main()
+        /*static void Main()
         {
             Console.Write("Enter n = ");
             string nStr = Console.ReadLine();
@@ -153,7 +153,7 @@ namespace Lessons_Homeworks.Tasks
                 }
             }
 
-            /*for (int i = 0; i < chars2.Length; i++)
+            *//*for (int i = 0; i < chars2.Length; i++)
             {
                 for (int j = i; j < n; j++)
                 {
@@ -168,7 +168,7 @@ namespace Lessons_Homeworks.Tasks
                         //break;
                     }
                 }
-            }*/
+            }*//*
 
             Console.WriteLine("Chars2 elements are:");
 
@@ -181,7 +181,7 @@ namespace Lessons_Homeworks.Tasks
 
             // Task_278
 
-            /*int countOddIndex = 0;
+            *//*int countOddIndex = 0;
 
             for (int i = 0; i < n; i++)
             {
@@ -191,11 +191,11 @@ namespace Lessons_Homeworks.Tasks
                 }
             }
 
-            char[] chars3 = new char[countOddIndex];*/
+            char[] chars3 = new char[countOddIndex];*//*
 
 
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
