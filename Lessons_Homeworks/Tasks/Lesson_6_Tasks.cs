@@ -125,6 +125,40 @@ namespace Lessons_Homeworks.Tasks
 
             return sum;
         }
+
+        public static int Factorial(int number)              // Task_11
+        {
+            if (number == 0 || number == 1)
+            {
+                return 1;
+            }
+
+            for (int i = number - 1; i >= 2; i--)
+            {
+                number *= i;
+            }
+            return number;
+        }
+
+        public static int Fibonacci1(int fibNum)             // Task_12
+        {
+            if (fibNum == 1)
+                return 0;
+            else if (fibNum == 2)
+                return 1;
+
+            int fibNum1 = 0;
+            int fibNum2 = 1;
+            int fibNum3 = 0;
+
+            for (int i = 0; i < fibNum - 2; i++)
+            {
+                fibNum3 = fibNum1 + fibNum2;
+                fibNum1 = fibNum2;
+                fibNum2 = fibNum3;
+            }
+            return fibNum3;
+        }
         static void Main()
         {
             // Task_1
@@ -244,6 +278,24 @@ namespace Lessons_Homeworks.Tasks
             int number = Convert.ToInt32(numberStr);
 
             Console.WriteLine($"The sum of the digits of the number {number} is: {SumDigits(number)}");*/
+
+
+            // Task_11
+
+            /*Console.Write("Enter a number: ");
+            string numberStr = Console.ReadLine();
+            int number = Convert.ToInt32(numberStr);
+
+            Console.WriteLine($"The factorial of 5 is {Factorial(number)}");*/
+
+
+            // Task_12
+
+            Console.Write("Enter a number: ");
+            string fibNumStr = Console.ReadLine();
+            int fibNum = Convert.ToInt32(fibNumStr);
+
+            Console.WriteLine($"The Fibonacci of {fibNum}-th term is {Fibonacci1(fibNum)}");
         }
     }
 }
