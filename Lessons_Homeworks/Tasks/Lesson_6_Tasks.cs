@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Tasks
 {
     internal class Lesson_6_Tasks
     {
-        public static void UserName(string username)          // Task_1
+        /*public static void UserName(string username)          // Task_1
         {
             Console.WriteLine($"Welcome {username}!");
             Console.WriteLine("Have a nice day!");
@@ -163,24 +163,24 @@ namespace Lessons_Homeworks.Tasks
         {
             // Task_1
 
-            /*Console.Write("Enter user name: ");
+            Console.Write("Enter user name: ");
             string username = Console.ReadLine();
 
-            UserName(username);*/
+            UserName(username);
 
 
             // Task_2
 
-            /*Console.Write("Enter name: ");
+            Console.Write("Enter name: ");
             string name = Console.ReadLine();
 
             Console.WriteLine($"Welcome friend {Name(name)}!");
-            Console.WriteLine("Have a nice day!");*/
+            Console.WriteLine("Have a nice day!");
 
 
             // Task_3
 
-            /*Console.Write("Enter the first number: ");
+            Console.Write("Enter the first number: ");
             string number1Str = Console.ReadLine();
             int number1 = Convert.ToInt32(number1Str);
 
@@ -188,41 +188,41 @@ namespace Lessons_Homeworks.Tasks
             string number2Str = Console.ReadLine();
             int number2 = Convert.ToInt32(number2Str);
 
-            Console.Write($"The sum of two numbers is: {Sum(number1, number2)}");*/
+            Console.Write($"The sum of two numbers is: {Sum(number1, number2)}");
 
 
             // Task_4
 
-            /*Console.WriteLine("Enter a text:");
+            Console.WriteLine("Enter a text:");
             string text = Console.ReadLine();
 
-            Console.WriteLine($"{text}. contains {CountSpaces(text)} spaces");*/
+            Console.WriteLine($"{text}. contains {CountSpaces(text)} spaces");
 
 
             // Task_5
 
-            /*Console.Write("Enter array size: ");
+            Console.Write("Enter array size: ");
             string sizeStr = Console.ReadLine();
             int size = Convert.ToInt32(sizeStr);
 
             string[] numbersStr = new string[size];
-            
+
             Console.WriteLine("Enter array elements:");
 
             for (int i = 0; i < size; i++)
-            {  
+            {
                 Console.Write($"Number {i + 1} = {numbersStr[i]}");
                 numbersStr[i] = Console.ReadLine();
             }
 
             int[] numbers = Array.ConvertAll(numbersStr, int.Parse);
 
-            Console.Write($"The sum of the elements of the array is {SumElements(size, numbers)}");*/
+            Console.Write($"The sum of the elements of the array is {SumElements(size, numbers)}");
 
 
             // Task_6
 
-            /*Console.Write("Enter the 1-st number: ");
+            Console.Write("Enter the 1-st number: ");
             string number1Str = Console.ReadLine();
             int number1 = Convert.ToInt32(number1Str);
 
@@ -232,12 +232,12 @@ namespace Lessons_Homeworks.Tasks
 
             SwapElements(ref number1, ref number2);
 
-            Console.WriteLine($"Now the 1-st number is: {number1} and the 2-nd number is: {number2}");*/
+            Console.WriteLine($"Now the 1-st number is: {number1} and the 2-nd number is: {number2}");
 
 
             // Task_7
 
-            /*Console.Write("Enter base number: ");
+            Console.Write("Enter base number: ");
             string baseNumStr = Console.ReadLine();
             int baseNum = Convert.ToInt32(baseNumStr);
 
@@ -245,21 +245,21 @@ namespace Lessons_Homeworks.Tasks
             string exponentStr = Console.ReadLine();
             int exponent = Convert.ToInt32(exponentStr);
 
-            Console.WriteLine($"So the number {baseNum}^{exponent} = {Pow(baseNum,exponent)}");*/
+            Console.WriteLine($"So the number {baseNum}^{exponent} = {Pow(baseNum, exponent)}");
 
 
             // Task_8
 
-            /*Console.Write("Enter number of Fibonacci series: ");
+            Console.Write("Enter number of Fibonacci series: ");
             string fibNumStr = Console.ReadLine();
             int fibNum = Convert.ToInt32(fibNumStr);
 
-            Fibonacci(fibNum);*/
+            Fibonacci(fibNum);
 
 
             // Task_9
 
-            /*Console.Write("Enter a number: ");
+            Console.Write("Enter a number: ");
             string numberStr = Console.ReadLine();
             int number = Convert.ToInt32(numberStr);
 
@@ -268,25 +268,25 @@ namespace Lessons_Homeworks.Tasks
             if (IsPrime(number) == true)
                 Console.WriteLine($"{number} is a prime number");
             else
-                Console.WriteLine($"{number} isn't a prime number");*/
+                Console.WriteLine($"{number} isn't a prime number");
 
 
             // Task_10
 
-            /*Console.Write("Enter a number: ");
+            Console.Write("Enter a number: ");
             string numberStr = Console.ReadLine();
             int number = Convert.ToInt32(numberStr);
 
-            Console.WriteLine($"The sum of the digits of the number {number} is: {SumDigits(number)}");*/
+            Console.WriteLine($"The sum of the digits of the number {number} is: {SumDigits(number)}");
 
 
             // Task_11
 
-            /*Console.Write("Enter a number: ");
+            Console.Write("Enter a number: ");
             string numberStr = Console.ReadLine();
             int number = Convert.ToInt32(numberStr);
 
-            Console.WriteLine($"The factorial of 5 is {Factorial(number)}");*/
+            Console.WriteLine($"The factorial of 5 is {Factorial(number)}");
 
 
             // Task_12
@@ -296,6 +296,6 @@ namespace Lessons_Homeworks.Tasks
             int fibNum = Convert.ToInt32(fibNumStr);
 
             Console.WriteLine($"The Fibonacci of {fibNum}-th term is {Fibonacci1(fibNum)}");
-        }
+        }*/
     }
 }
