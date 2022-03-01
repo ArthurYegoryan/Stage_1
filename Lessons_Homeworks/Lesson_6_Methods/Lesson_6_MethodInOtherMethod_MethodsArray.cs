@@ -8,7 +8,7 @@ namespace Lessons_Homeworks.Lesson_6_Methods
 {
     internal class Lesson_6_MethodInOtherMethod_MethodsArray
     {
-        public static int Sum(int number1, int number2)
+        /*public static int Sum(int number1, int number2)
         {
             int sum = number1 + number2;
             return sum;
@@ -46,6 +46,6 @@ namespace Lessons_Homeworks.Lesson_6_Methods
             Console.WriteLine($"Sum of elements of methods array is {SumElements(number1, number2)}");
 
             Console.ReadKey();
-        }
+        }*/
     }
 }
