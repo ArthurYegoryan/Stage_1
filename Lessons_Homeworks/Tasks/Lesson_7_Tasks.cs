@@ -30,9 +30,37 @@ namespace Lessons_Homeworks.Tasks
 
             return Reverse(reverse) + firstLetter;
         }
+
+        public static void MultTable(int number, int i)           // Task_David
+        {
+            if (i > 10)
+                return;            
+
+            Console.WriteLine($"{number} * {i} = " + (number * i));
+
+            MultTable(number, i + 1);
+        }
+
+        public static int CountPrimeNumbers(int num, int count)        // Task_Syuzi   ???
+        {
+            if (num - 1 < 2)
+                return 0;
+
+            /*for (int i = 2; i <= Math.Sqrt(num-1); i++)
+            {
+                if ((num - 1) % i != 0)
+                {
+                    count++;
+                }
+            }*/
+
+            CountPrimeNumbers(num - 1, count);
+
+            return count;
+        }
         static void Main()
         {
-            // Task_Alice
+            /*// Task_Alice
 
             Console.Write("Enter Fibonacci number of element: ");
             int fibNum = Convert.ToInt32(Console.ReadLine());
@@ -48,9 +76,29 @@ namespace Lessons_Homeworks.Tasks
             Console.WriteLine($"Reverse string is {Reverse(text1)}");
 
 
+            // Task_David
+
+            Console.Write("Enter a number: ");
+            string numberStr = Console.ReadLine();
+            int number = Convert.ToInt32(numberStr);
+
+            int i = 1;
+            MultTable(number, i);*/
+
+
+            // Task_Syuzi
+
+            Console.Write("Enter a number: ");
+            string numStr = Console.ReadLine();
+            int num = Convert.ToInt32(numStr);
+
+            int count = 0;
+
+            Console.WriteLine($"Count of prime numbers 0 to {num} = {CountPrimeNumbers(num, count)}");
+
             // Task_Hovo
 
-            Console.Write("Enter error code: ");
+            /*Console.Write("Enter error code: ");
             string text = Console.ReadLine();
 
             Errors errors = new Errors();
@@ -82,9 +130,9 @@ namespace Lessons_Homeworks.Tasks
             }                    
 
             PrintMessage(errors);
-        }
+        }*/
 
-        public static void PrintMessage(Errors errors)                     // Task_Hovo
+        /*public static void PrintMessage(Errors errors)                     // Task_Hovo
         {
             switch (errors)
             {
@@ -131,10 +179,10 @@ namespace Lessons_Homeworks.Tasks
                 default:
                     Console.WriteLine("Invalid error!");
                     return;
-            }
+            }*/
         }
 
-        public enum Errors
+        /*public enum Errors
         {
             CS1002,
             CS1003,
@@ -146,6 +194,6 @@ namespace Lessons_Homeworks.Tasks
             CS0103,
             CS0246,
             CS8641,
-        }
+        }*/
     }
 }
