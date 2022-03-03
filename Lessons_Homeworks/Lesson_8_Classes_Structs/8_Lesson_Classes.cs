@@ -48,7 +48,7 @@ namespace Lessons_Homeworks
             return student;
         }
 
-        static  void Print(Student student)
+        static void Print(Student student)
         {
             Console.WriteLine("Student information:");
             Console.WriteLine($"Student ID: {student.ID}");
@@ -68,7 +68,7 @@ namespace Lessons_Homeworks
 
             point1.x = 4;
             point1.y = 2;
-            point1.color = Color.Red;            
+            point1.color = Color.Red;
 
             Console.WriteLine($"X: {point1.x}, Y: {point1.y}, Color: {point1.color}");
 
