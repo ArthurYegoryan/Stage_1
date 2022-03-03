@@ -58,9 +58,9 @@ namespace Lessons_Homeworks.Tasks
 
             return count;
         }
-        static void Main()
+        /*static void Main()
         {
-            /*// Task_Alice
+            // Task_Alice
 
             Console.Write("Enter Fibonacci number of element: ");
             int fibNum = Convert.ToInt32(Console.ReadLine());
@@ -83,7 +83,7 @@ namespace Lessons_Homeworks.Tasks
             int number = Convert.ToInt32(numberStr);
 
             int i = 1;
-            MultTable(number, i);*/
+            MultTable(number, i);
 
 
             // Task_Syuzi
@@ -98,7 +98,7 @@ namespace Lessons_Homeworks.Tasks
 
             // Task_Hovo
 
-            /*Console.Write("Enter error code: ");
+            Console.Write("Enter error code: ");
             string text = Console.ReadLine();
 
             Errors errors = new Errors();
@@ -127,7 +127,7 @@ namespace Lessons_Homeworks.Tasks
             {
                 Console.WriteLine("Invalid error code!");
                 return;
-            }                    
+            }
 
             PrintMessage(errors);
         }*/
@@ -179,8 +179,8 @@ namespace Lessons_Homeworks.Tasks
                 default:
                     Console.WriteLine("Invalid error!");
                     return;
-            }*/
-        }
+            }
+        }*/
 
         /*public enum Errors
         {
