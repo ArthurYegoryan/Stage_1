@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks
+/*namespace Lessons_Homeworks
 {
     enum Color
     {
@@ -83,4 +83,4 @@ namespace Lessons_Homeworks
             Console.WriteLine($"X: {point2.x}, Y: {point2.y}, Color: {point2.color}");
         }
     }
-}
+}*/

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks.Lesson_8_Classes_Structs
+/*namespace Lessons_Homeworks.Lesson_8_Classes_Structs
 {
     class Gun                                                  
     {                                                          
@@ -43,4 +43,4 @@ namespace Lessons_Homeworks.Lesson_8_Classes_Structs
             gun.Shot();                                                  // միանգամից կրակում է, եթե տալիս ենք false, ուրեմն լիցքավորում է նոր է կրակում
         }
     }
-}
+}*/
