@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks.Lesson_8_Classes_Structs
+/*namespace Lessons_Homeworks.Lesson_8_Classes_Structs
 {
-    /*Create a "struct" to store data of 2D points. The fields for each point will be:
+    *//*Create a "struct" to store data of 2D points. The fields for each point will be:
       x coordinate(short)
       y coordinate(short)
       r(red colour, byte)
       g(green colour, byte)
-      b(blue colour, byte)*/
+      b(blue colour, byte)*//*
     enum Colour : byte
     {
         Red,
@@ -50,4 +50,4 @@ namespace Lessons_Homeworks.Lesson_8_Classes_Structs
             Console.WriteLine($"X = {point3.x} | Y = {point3.y} | Colour = {point3.colour}");
         }
     }
-}
+}*/
