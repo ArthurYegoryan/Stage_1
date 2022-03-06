@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks
+/*namespace Lessons_Homeworks
 {
     class AgePeople
     {
@@ -46,4 +46,4 @@ namespace Lessons_Homeworks
             Console.WriteLine("Nice, you can do it!");
         }
     }
-}
+}*/
