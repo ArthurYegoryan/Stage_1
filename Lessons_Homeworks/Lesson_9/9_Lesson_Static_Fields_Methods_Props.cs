@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks.Lesson_9
+/*namespace Lessons_Homeworks.Lesson_9
 {
     class MyClass
     {
@@ -79,3 +79,4 @@ namespace Lessons_Homeworks.Lesson_9
         }      
     }
 }
+*/
