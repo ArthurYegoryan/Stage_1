@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lessons_Homeworks.Lesson_9
+/*namespace Lessons_Homeworks.Lesson_9
 {
     class MyClass
     {
         public int a;
         static int b;
-        
+
         public MyClass()
         {
             Console.WriteLine("Constructor");
         }
-        
+
         public MyClass(int a)
         {
             Console.WriteLine("Constructor");
-            Console.WriteLine(a);            
+            Console.WriteLine(a);
         }
 
         static MyClass()                              // Class-ը կարող է ունենալ միայն 1 static constructor և այն ռեալիզացվում է class-ի 
@@ -27,7 +27,7 @@ namespace Lessons_Homeworks.Lesson_9
             Console.WriteLine("Static constructor");
 
             //a = 5;                                  // Ինչպես static methodner-ում static constructor-ում նույնպես չենք կարող շփվել
-            // ոչ static անդամների հետ
+                                                      // ոչ static անդամների հետ
 
             b = 7;                                    // Իսկ static անդամների հետ խնդիր չկա
         }
@@ -52,4 +52,4 @@ namespace Lessons_Homeworks.Lesson_9
             // դրա համար օգտագործում ենք static constructor, որը կկանչվի միայն մեկ անգամ և կապահովի բոլոր անդամների օգտագործումը
         }
     }
-}
+}*/

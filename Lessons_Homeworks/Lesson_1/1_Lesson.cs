@@ -21,8 +21,6 @@ namespace myWorks
             var age_str = Console.ReadLine();
             int age = Convert.ToInt32(age_str);
             Console.WriteLine($"Arthur is {age} years old");
-
-            Console.ReadKey();
         }*/
-    }
+    }    
 }
