@@ -9,7 +9,7 @@ namespace Lessons_Homeworks
     internal class SortingAlgorithms
     {
         public static void Bubble_Sort(int[] nums)
-        {
+        {            
             for (int i = 0; i < nums.Length; i++)
             {
                 bool isSorted = true;
@@ -31,7 +31,7 @@ namespace Lessons_Homeworks
         public static void Selection_Sort(int[] nums)
         {
             for (int i = 0; i < nums.Length; i++)
-            {
+            {                
                 for (int j = i + 1; j < nums.Length; j++)
                 {
                     if (nums[j] < nums[i])
@@ -39,7 +39,7 @@ namespace Lessons_Homeworks
                         int temp = nums[i];
                         nums[i] = nums[j];
                         nums[j] = temp;
-                    }
+                    }                        
                 }
             }
         }
